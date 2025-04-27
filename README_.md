@@ -142,3 +142,4 @@ The project is divided into two main components:
 - **Streamlit UI**: Accessible at `http://localhost:8501`
   - Provides a user interface for generating and downloading content.
 
+![image](https://github.com/user-attachments/assets/e26b2c8c-2376-4427-a0f2-9e8756c892d9)
