@@ -1,0 +1,13 @@
+selenium
+webdriver-manager
+beautifulsoup4
+python-dotenv
+langchain
+langchain-core
+langchain_groq
+groq
+requests
+uvicorn
+pydantic
+fastapi
+pillow

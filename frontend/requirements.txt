@@ -1,0 +1,8 @@
+# streamlit==1.30.0
+# requests==2.31.0
+# requests-toolbelt==1.0.0
+python-dotenv
+pydantic
+streamlit
+requests
+requests-toolbelt

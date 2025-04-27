@@ -1,0 +1,36 @@
+version: "3.9"
+
+services:
+  backend:
+    build: 
+      context: ./backend   
+      dockerfile: Dockerfile
+    volumes:
+      - ./backend:/backend   
+    ports:
+      - "8004:8004"
+    env_file:
+      - .env    
+    networks:
+      - my_network
+    restart: always
+
+  frontend:
+    build: 
+      context: ./frontend   
+      dockerfile: Dockerfile
+    volumes:
+      - ./frontend:/frontend   
+    ports:
+      - "8501:8501"
+    depends_on:
+      - backend
+    env_file:
+      - .env    
+    networks:
+      - my_network
+    restart: always
+
+networks:
+  my_network:
+    driver: bridge

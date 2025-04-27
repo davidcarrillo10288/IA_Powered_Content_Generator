@@ -1,0 +1,20 @@
+.vscode/
+.devcontainer/
+*.pyc
+
+
+# Archivos Python compilados
+__pycache__/
+*.py[cod]
+
+# Entorno virtual
+venv/
+env/
+
+# Archivos de configuración local
+*.env
+*.log
+
+# IDEs
+.vscode/
+.idea/
